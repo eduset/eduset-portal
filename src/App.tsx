@@ -5,7 +5,7 @@ const services = [{ name: "충북과학고등학교", link: "https:cbsh.edu-set.
 function App() {
   useEffect(() => {
     if (services.length === 1) {
-      window.location.href = services[0].link;
+      window.open(services[0].link, "_blank");
     }
   }, []);
 
