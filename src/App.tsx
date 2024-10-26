@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import "./App.css";
 
-const services = [{ name: "충북과학고등학교", link: "https:cbsh.edu-set.com" }];
+const services = [
+  { name: "충북과학고등학교", link: "https://cbsh.edu-set.com" },
+];
 function App() {
   useEffect(() => {
     if (services.length === 1) {
